@@ -4,7 +4,7 @@ Some useful Swift extensions to the iOS CLLocation class. This Swift extension a
  * func bearingToPoint(point:CLLocation) -> Double : Computes the bearing to the given point. 
  * func findingPoint(withBearing: Double, atDistance: Double) -> CLLocation : Computes a destination point that will be arrived at when traveling from the origination with the given distance/bearing. 
  
- ## Requirements
+## Requirements
 These extensions work with iOS7 and above and depend on the following frameworks:
 
  * Foundation.framework
